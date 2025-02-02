@@ -1,0 +1,1 @@
+# This is to illustrate a scenario for my website application interaction
