@@ -1,0 +1,3 @@
+    Create connection to mongodb
+    Set up all models
+    configure all API 

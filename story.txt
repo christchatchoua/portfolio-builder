@@ -1,1 +1,18 @@
 # This is to illustrate a scenario for my website application interaction
+
+Story 1 : Anna 
+
+Anna is a graphic designer , she wants to start freelancing and in order to get new clients , she must have her own portfolio website where her clients and collaborators can get to know more about her , her hobbies , her projects , her experience and values and also contact her . But Anna does not know how to code so she decides to use Athena portfolio-builder.
+
+She comes on the website of athena and can see an about section , pricing section , templates and home section .
+
+On the home section she can navigate and see a hero section 
+
+Then a why you should build a portfolio
+
+Then a section on why to use Athena and a try for free button 
+
+Anna will then signup with the try for free button and she will be prompted to signup with google or to add her information on a form as 
+
+First name , Last name 
+email  , country ,

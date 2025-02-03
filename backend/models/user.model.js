@@ -20,7 +20,7 @@ country:{
 },
 picture : {
     type: String,
-    required : true 
+    required : false
 },
 }, 
 {
