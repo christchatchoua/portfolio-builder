@@ -1,23 +1,20 @@
 import express from 'express';
-import router from 'express.Router()';
-import user from '../models/user.model'; // I am importing the user model here to make my API
+//import User from '../models/user.model'; // I am importing the user model here to make my API
+import { createUser , deleteUser } from '../controllers/user.controller.js';
+
+const router = express.Router();
 
 // Create a new user
-router.post('/', async (req, res) => {
+router.post('/', createUser);
 
-});
+// Delete a user
+router.delete('/:id', deleteUser)
 
-// Create a new user
-router.get('/', async (req, res) => {
-
-});
-
-// Create a new user
+// update user api to add later
 router.put('/', async (req, res) => {
 
 });
 
-// Create a new user
-router.get('/', async (req, res) => {
 
-});
+
+export default router;
