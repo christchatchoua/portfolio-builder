@@ -1,6 +1,6 @@
 import express from 'express';
 //import User from '../models/user.model'; // I am importing the user model here to make my API
-import { createUser , deleteUser } from '../controllers/user.controller.js';
+import { createUser , deleteUser, login, signup , logout } from '../controllers/user.controller.js';
 
 const router = express.Router();
 
@@ -11,10 +11,11 @@ router.post('/', createUser);
 router.delete('/:id', deleteUser)
 
 // update user api to add later
-router.put('/', async (req, res) => {
+router.post('/signup', signup);
 
-});
+router.post ('/login',login);
 
+router.post ('/logout', logout);
 
 
 export default router;
